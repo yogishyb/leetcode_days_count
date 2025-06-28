@@ -73,10 +73,10 @@ def get_solved_dates(username, year=2025):
     return sorted(solved_dates)
 
 
-if __name__ == "__main__":
-    username = "yogishyb"
-    # Optionally specify year: year=2025
-    solved_dates = get_solved_dates(username)
-    print(f"Total days with solved problems: {len(solved_dates)}")
-    for date in solved_dates:
-        print(date)
+# if __name__ == "__main__":
+#     username = "yogishyb"
+#     # Optionally specify year: year=2025
+#     solved_dates = get_solved_dates(username)
+#     print(f"Total days with solved problems: {len(solved_dates)}")
+#     for date in solved_dates:
+#         print(date)
